@@ -1,0 +1,14 @@
+<?php /** @var \Magepow\Smtptest\Block\Adminhtml\System\Config\TestConnection $block */ ?>
+<?= $block->getButtonHtml() ?>
+<div id="magepow-smtptest-result" style="margin-top:10px;"></div>
+<script type="text/x-magento-init">
+{
+    "*": {
+        "Magepow_Smtptest/js/test-connection": {
+            "ajaxUrl": "<?= $block->escapeUrl($block->getAjaxUrl()) ?>",
+            "buttonId": "magepow_smtptest_button",
+            "resultId": "magepow-smtptest-result"
+        }
+    }
+}
+</script>

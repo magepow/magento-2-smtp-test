@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="system">
+            <group id="smtp">
+                <field id="test_email" translate="label comment" type="text" sortOrder="125" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Send Test E-mail To</label>
+                    <comment>Please save the configuration before testing connection.</comment>
+                </field>
+                <field id="test_connection" translate="label" type="button" sortOrder="126" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Test Connection</label>
+                    <frontend_model>Magepow\Smtptest\Block\Adminhtml\System\Config\TestConnection</frontend_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
