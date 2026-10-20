@@ -14,6 +14,10 @@ It also helps you troubleshoot email delivery issues and debug SMTP configuratio
 
 ## How to use Magepow_SmtpTest extension
 
+[![Latest Stable Version](https://poser.pugx.org/magepow/smtptest/v/stable)](https://packagist.org/packages/magepow/smtptest)
+[![Total Downloads](https://poser.pugx.org/magepow/smtptest/downloads)](https://packagist.org/packages/magepow/smtptest)
+[![Daily Downloads](https://poser.pugx.org/magepow/smtptest/d/daily)](https://packagist.org/packages/magepow/smtptest)
+
  #### Install via composer (recommend)
 Run the following commands in Magento 2 root folder:
 ```
